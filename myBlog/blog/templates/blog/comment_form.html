@@ -1,0 +1,18 @@
+{% extends "blog/base.html" %}
+
+{% block content %}
+<div>
+	<div>
+		<div>
+			<h1>New Comment</h1>
+			<div class="input-group">
+			<form method="POST">
+				{% csrf_token %}
+				{{form.as_p}}
+				<button type="submit" class="btn btn-primary">Post Comment</button>
+			</form>
+		</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

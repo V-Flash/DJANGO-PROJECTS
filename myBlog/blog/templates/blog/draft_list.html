@@ -1,0 +1,37 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+
+    {% for post in posts %}
+
+    <div class="centerstrage mt-5">
+
+    <h2 class="mb-5">Draft Posts</h2>
+
+        <div class="row align-items-center">
+
+            <div class="col-md-2">
+                <h1 class="date">{{post.create_date|date:"d"}}</h1>
+                <h5 class="month">{{post.create_date|date:"F"}}</h5>
+                <h5 class="year">{{post.create_date|date:"Y"}}</h5>
+            </div>
+
+            <div class="col-md-10">
+                
+                <h2 >
+                    <a id="post_title" href="{% url 'post_detail' pk=post.pk %}">{{post.title}}</a>
+                </h2>
+
+                <p class="post_content">{{post.text|truncatechars:500}}</p>
+                
+                <a class="read_more_link" href="{% url 'post_detail' pk=post.pk %}">Read More</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    {% endfor %}
+
+{% endblock %}

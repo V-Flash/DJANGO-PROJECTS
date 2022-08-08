@@ -1,0 +1,40 @@
+{% extends "blog/base.html" %}
+
+{% block content %}
+
+
+<div class="container">
+
+{% load static %}
+
+	<div class="row mt-5 mb-5">
+
+		<div class="col-4">
+			<img src="{% static 'images/profileimg.png' %}" class="image-fluid bloger-img" height="280px" width="280px">
+		</div>
+
+		<div class="col-md-8 mt-5">
+
+			<h2 class="Poppins_font">Hey! I'm <b>Vivek</b></h2>
+
+			<p class="Poppins_font mt-4">Breakfast procuring no end happiness allowance assurance frank. Met simplicity nor difficulty unreserved who. Entreaties mr conviction dissimilar me astonished estimating cultivated.</p>
+		</div>
+	</div>
+		
+</div>
+
+
+<div class="container">
+
+	<h1>About MyBlog</h1>
+
+	<p>MyBlog is a beautiful Gatsby Blog theme designed to showcase your work in style. Perfect for designers, artists, photographers and developers to use for their portfolio website.</p>
+
+	<h2>Hey there, what’s up?</h2>
+	
+	<p>RedQ Team is a creative agency specializing in building scalable, high-performance web & mobile application. Our main concern is creating more value into the application so that can help our customers to grow their business.
+	</p>
+
+</div>
+
+{% endblock %}

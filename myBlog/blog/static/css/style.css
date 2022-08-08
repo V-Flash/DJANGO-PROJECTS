@@ -1,0 +1,172 @@
+
+.ruso_one_font{
+    font-family: 'Russo One',sans-serif;
+}
+
+.FiraSans_font{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.Poppins_font{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.centerstrage{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logo-1{
+    color:#df2d86;
+}
+
+.nav-item{
+    font-size: 20px;
+}
+
+#post_title{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+}
+
+.post_content{
+    font-family: 14px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.date{
+    font-size: 65px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.month{
+    font-size: 25px;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+}
+
+.year{
+    font-size: 27px;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+}
+
+
+.read_more_link{
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+
+.read_more_link:hover{
+    color: #df2d86;
+}
+
+.comment_link{
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: 400; 
+}
+
+.comment_link:hover{
+    color: #df2d86;
+}
+
+
+.post_detail_title{
+    font-family: 'Poppins',sans-serif;
+    text-transform: capitalize;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.post_date{
+    font-family: 'Poppins',sans-serif;
+    font-style: italic;    
+}
+
+.add_comment_btn{
+    background: #df2d86;
+    color: white;
+}
+
+.add_comment_btn:hover{
+    background: #df2d86;
+    color: white;
+}
+
+.bloger-img{
+    margin-left: 60px;
+}
+
+.leatest-para{
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+
+.btn-publish{
+    border-color: #df2d86;
+    color: #df2d86;
+}
+
+.btn-publish:hover{
+    background: #df2d86;
+    color: white;
+}
+
+.btn-edit{
+    border-color: #df2d86;
+    color: #df2d86;
+}
+
+.btn-edit:hover{
+    background: #df2d86;
+    color: white;
+}
+
+.btn-remove{
+    border-color: #df2d86;
+    color: #df2d86;
+}
+
+.btn-remove:hover{
+    background: #df2d86;
+    color: white;
+}
+
+.btn-save{
+    border-color: #df2d86;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-save:hover{
+    background: #df2d86;
+    color: white;
+}
+
+.inputs{
+    border-color: #df2d86;
+}
+
+.editable{
+   border-color: #df2d86; 
+}
